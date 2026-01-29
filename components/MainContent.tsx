@@ -5,7 +5,6 @@ import { Stack } from "@/components/Stack";
 import { Experience } from "@/components/Experience";
 import { Projects } from "@/components/Projects";
 import { Skills } from "@/components/Skills";
-import { Brands } from "@/components/Brands";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/layout/Footer";
 
@@ -53,9 +52,6 @@ export const MainContent: React.FC<MainContentProps> = ({
     </div>
     <div id="skills">
       <Skills />
-    </div>
-    <div id="brands">
-      <Brands />
     </div>
     <div id="contact">
       <Contact currentTime={currentTime} />
