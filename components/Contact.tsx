@@ -81,7 +81,7 @@ export const Contact: React.FC<ContactProps> = ({ currentTime }) => (
             </div>
             <div className="flex items-center space-x-3">
               <SiGmail className="w-5 h-5 text-white" />
-              <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=contact@duvet05.com" target="_blank" rel="noopener noreferrer" className="text-base hover:underline">gonzalo.galvezc@pucp.edu.pe</a>
+              <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=gonzalo.galvezc@pucp.edu.pe" target="_blank" rel="noopener noreferrer" className="text-base hover:underline">gonzalo.galvezc@pucp.edu.pe</a>
             </div>
             <div className="flex items-center space-x-3">
               <SiInstagram className="w-5 h-5 text-white" />
