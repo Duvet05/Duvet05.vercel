@@ -23,7 +23,7 @@ interface BrowserHeaderProps {
 
 export const BrowserHeader: React.FC<BrowserHeaderProps> = (props) => {
   const pathname = usePathname();
-  const currentUrl = pathname === '/projects' ? 'HTTPS://DUVET05.COM/PROJECTS' : 'HTTPS://DUVET05.COM';
+  const currentUrl = pathname === '/projects' ? 'HTTPS://DUVET05.XYZ/PROJECTS' : 'HTTPS://DUVET05.XYZ';
   
   return (
     <>
@@ -66,7 +66,7 @@ export const BrowserHeader: React.FC<BrowserHeaderProps> = (props) => {
             </Button>
           </a>
           <a
-            href="mailto:contact@duvet05.com"
+            href="mailto:gonzalo.galvezc@pucp.edu.pe"
             target="_blank"
             rel="noopener noreferrer"
           >
