@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react"
 import { BrowserHeader } from "@/components/BrowserHeader"
 import { MainContent } from "@/components/MainContent"
+import ArtstationInfiniteCarousel from "@/components/ArtstationInfiniteCarousel"
 
 export default function CyberpunkPortfolio() {
   const [currentTime, setCurrentTime] = useState("")
@@ -218,6 +219,10 @@ export default function CyberpunkPortfolio() {
             isMuted={isMuted}
           />
         </div>
+      </div>
+
+      <div className="pt-[100px] mx-4">
+        <ArtstationInfiniteCarousel />
       </div>
 
       {/* Contenido principal con padding-top para compensar el header fijo */}
