@@ -16,7 +16,7 @@ export const Contact: React.FC<ContactProps> = ({ currentTime }) => (
     <WindowHeader title="CONTACT.EXE" />
     <div className="border-secondary border grid grid-cols-1 lg:grid-cols-2">
       <div>
-        <div className="bg-primary border-b border-r-0 border-secondary p-6 lg:border-b-0 lg:border-r">
+        <div className="bg-primary border-secondary p-6 lg:border-r">
           <h3 className="text-xl font-bold mb-4 font-bauhaus whitespace-nowrap overflow-hidden w-full flex items-center">
             <span>SEND.MESSAGE</span>
             <span className="flex-1 ml-2 text-secondary" style={{ letterSpacing: '2px' }}>{'/'.repeat(40)}</span>
@@ -44,23 +44,23 @@ export const Contact: React.FC<ContactProps> = ({ currentTime }) => (
             <span>LOCATION.DATA</span>
             <span className="flex-1 ml-2 text-secondary" style={{ letterSpacing: '2px' }}>{'/'.repeat(39)}</span>
           </h3>
-          <div className="mb-4 flex justify-center">
-            <div className="w-1/2">
+          <div className="flex gap-4 items-start">
+            <div className="flex-1 text-sm text-gray-400">
+              <p>■ SECTOR: PERÚ</p>
+              <p>■ TIMEZONE: GMT-5 {currentTime}</p>
+              <p>■ STATUS: AVAILABLE.FOR.HIRE</p>
+            </div>
+            <div className="flex-shrink-0">
               <Image
                 src="/images/lima-dithered.png"
                 alt="Lima, Peru - Plaza Bolognesi"
-                width={150}
-                height={100}
-                className="w-full h-auto object-cover border border-secondary"
+                width={120}
+                height={80}
+                className="border border-secondary"
                 style={{ imageRendering: 'pixelated' }}
               />
               <p className="text-xs text-gray-500 mt-1 font-mono text-center">1921-PLAZA-BOLOGNESI</p>
             </div>
-          </div>
-          <div className="text-sm text-gray-400">
-            <p>■ SECTOR: PERÚ</p>
-            <p>■ TIMEZONE: GMT-5 {currentTime}</p>
-            <p>■ STATUS: AVAILABLE.FOR.HIRE</p>
           </div>
         </div>
         <div className="text-secondary bg-primary p-6">

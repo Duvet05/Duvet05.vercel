@@ -20,10 +20,11 @@ export const AboutMe: React.FC<AboutMeProps> = () => (
         <Image
           src="/images/dithered-image.png"
           alt="Duvet05 Profile"
-          className="w-[196px] h-[196px] object-cover rounded-lg aspect-square"
+          className="w-[196px] h-[196px] object-cover aspect-square"
           width={196}
           height={196}
           priority
+          style={{ imageRendering: 'pixelated' }}
         />
       </div>
       
