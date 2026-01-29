@@ -84,20 +84,33 @@ export const Experience: React.FC = () => (
           </p>
         </div>
 
-        {/* Conectathon 2026 & HL7 */}
-        <div className="border border-secondary p-4 bg-black/30 hover:bg-black/50 transition-colors md:col-span-2">
+        {/* Conectathon 2025 */}
+        <div className="border border-secondary p-4 bg-black/30 hover:bg-black/50 transition-colors">
           <div className="flex items-center gap-2 mb-3">
             <Code className="text-primary w-6 h-6" />
-            <h3 className="text-xl font-bauhaus">CONECTATHON 2026 & HL7/FHIR EXPERTISE</h3>
+            <h3 className="text-xl font-bauhaus">CONECTATHON 2025</h3>
           </div>
-          <p className="text-base leading-relaxed mb-3">
-            Participated in Conectathon 2026, a healthcare interoperability testing event. Specialized in HL7 FHIR standards for healthcare data exchange and integration.
+          <p className="text-base leading-relaxed">
+            Participated in Conectathon 2025, a healthcare interoperability testing event focused on testing and validating healthcare data exchange standards.
+          </p>
+          <div className="flex flex-wrap gap-2 mt-3">
+            <span className="border border-secondary px-3 py-1 text-sm bg-black/50">Healthcare Interoperability</span>
+            <span className="border border-secondary px-3 py-1 text-sm bg-black/50">Data Integration</span>
+          </div>
+        </div>
+
+        {/* HL7/FHIR Certification */}
+        <div className="border border-secondary p-4 bg-black/30 hover:bg-black/50 transition-colors">
+          <div className="flex items-center gap-2 mb-3">
+            <Award className="text-primary w-6 h-6" />
+            <h3 className="text-xl font-bauhaus">HL7/FHIR CERTIFIED</h3>
+          </div>
+          <p className="text-base leading-relaxed">
+            Certified in HL7 FHIR standards for healthcare data exchange and integration, implementing blockchain solutions for secure health data management.
           </p>
           <div className="flex flex-wrap gap-2 mt-3">
             <span className="border border-secondary px-3 py-1 text-sm bg-black/50">HL7 FHIR</span>
-            <span className="border border-secondary px-3 py-1 text-sm bg-black/50">Healthcare Interoperability</span>
             <span className="border border-secondary px-3 py-1 text-sm bg-black/50">Blockchain</span>
-            <span className="border border-secondary px-3 py-1 text-sm bg-black/50">Data Integration</span>
           </div>
         </div>
 
