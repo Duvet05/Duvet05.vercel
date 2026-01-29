@@ -19,7 +19,7 @@ export const Footer: React.FC<FooterProps> = ({ currentTime }) => (
           Gonzalo Galvez Cortez - Software Developer focused on building scalable applications and innovative solutions. Open for collaborations and new opportunities.
         </p>
         <p className="text-gray-500 mt-2 text-xs">
-          <a href="https://www.linkedin.com/in/galvezc" target="_blank" rel="noopener noreferrer" className="underline">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/galvezc" target="_blank" rel="noopener noreferrer" className="underline">LinkedIn</a> • <a href="https://www.instagram.com/gonzalo_galcor/" target="_blank" rel="noopener noreferrer" className="underline">Instagram</a>
         </p>
       </div>
       <div>
