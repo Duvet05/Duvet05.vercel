@@ -39,7 +39,31 @@ export const Contact: React.FC<ContactProps> = ({ currentTime }) => (
         </div>
       </div>
       <div>
-        <div className="text-secondary bg-primary border-b border-secondary p-6">
+        <div className="bg-primary border-b border-secondary p-6">
+          <h3 className="text-xl font-bold mb-4 font-bauhaus whitespace-nowrap overflow-hidden w-full flex items-center">
+            <span>LOCATION.DATA</span>
+            <span className="flex-1 ml-2 text-secondary" style={{ letterSpacing: '2px' }}>{'/'.repeat(39)}</span>
+          </h3>
+          <div className="mb-4 flex justify-center">
+            <div className="w-1/2">
+              <Image
+                src="/images/lima-dithered.png"
+                alt="Lima, Peru - Plaza Bolognesi"
+                width={150}
+                height={100}
+                className="w-full h-auto object-cover border border-secondary"
+                style={{ imageRendering: 'pixelated' }}
+              />
+              <p className="text-xs text-gray-500 mt-1 font-mono text-center">1921-PLAZA-BOLOGNESI</p>
+            </div>
+          </div>
+          <div className="text-sm text-gray-400">
+            <p>■ SECTOR: PERÚ</p>
+            <p>■ TIMEZONE: GMT-5 {currentTime}</p>
+            <p>■ STATUS: AVAILABLE.FOR.HIRE</p>
+          </div>
+        </div>
+        <div className="text-secondary bg-primary p-6">
           <h3 className="text-xl font-bold mb-4 font-bauhaus whitespace-nowrap overflow-hidden w-full flex items-center">
             <span>CONTACT.LINKS</span>
             <span className="flex-1 ml-2 text-secondary" style={{ letterSpacing: '2px' }}>{'/'.repeat(40)}</span>
@@ -61,28 +85,6 @@ export const Contact: React.FC<ContactProps> = ({ currentTime }) => (
               <SiInstagram className="w-5 h-5 text-white" />
               <a href="https://www.instagram.com/gonzalo_galcor/" target="_blank" rel="noopener noreferrer" className="text-base hover:underline">instagram.com/gonzalo_galcor</a>
             </div>
-          </div>
-        </div>
-        <div className="bg-primary p-6">
-          <h3 className="text-xl font-bold mb-4 font-bauhaus whitespace-nowrap overflow-hidden w-full flex items-center">
-            <span>LOCATION.DATA</span>
-            <span className="flex-1 ml-2 text-secondary" style={{ letterSpacing: '2px' }}>{'/'.repeat(39)}</span>
-          </h3>
-          <div className="mb-4">
-            <Image
-              src="/images/lima-dithered.png"
-              alt="Lima, Peru - Plaza Bolognesi"
-              width={300}
-              height={200}
-              className="w-full h-auto object-cover border border-secondary"
-              style={{ imageRendering: 'pixelated' }}
-            />
-            <p className="text-xs text-gray-500 mt-1 font-mono">1921-PLAZA-BOLOGNESI</p>
-          </div>
-          <div className="text-sm text-gray-400">
-            <p>■ SECTOR: PERÚ</p>
-            <p>■ TIMEZONE: GMT-5 {currentTime}</p>
-            <p>■ STATUS: AVAILABLE.FOR.HIRE</p>
           </div>
         </div>
       </div>
