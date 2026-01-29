@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { SiGithub, SiLinkedin, SiGmail, SiInstagram } from "react-icons/si";
 import { WindowHeader } from "./layout/WindowHeader";
+import Image from "next/image";
 
 interface ContactProps {
   currentTime: string;
@@ -67,6 +68,16 @@ export const Contact: React.FC<ContactProps> = ({ currentTime }) => (
             <span>LOCATION.DATA</span>
             <span className="flex-1 ml-2 text-secondary" style={{ letterSpacing: '2px' }}>{'/'.repeat(39)}</span>
           </h3>
+          <div className="mb-4">
+            <Image
+              src="/images/lima-dithered.png"
+              alt="Lima, Peru"
+              width={300}
+              height={200}
+              className="w-full h-auto object-cover"
+              style={{ imageRendering: 'pixelated' }}
+            />
+          </div>
           <div className="text-sm text-gray-400">
             <p>■ SECTOR: PERÚ</p>
             <p>■ TIMEZONE: GMT-5 {currentTime}</p>
