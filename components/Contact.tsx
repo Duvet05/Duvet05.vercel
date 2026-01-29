@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { SiGithub, SiLinkedin, SiGmail } from "react-icons/si";
+import { SiGithub, SiLinkedin, SiGmail, SiInstagram } from "react-icons/si";
 import { WindowHeader } from "./layout/WindowHeader";
 
 interface ContactProps {
@@ -55,6 +55,10 @@ export const Contact: React.FC<ContactProps> = ({ currentTime }) => (
             <div className="flex items-center space-x-3">
               <SiGmail className="w-5 h-5 text-white" />
               <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=contact@duvet05.com" target="_blank" rel="noopener noreferrer" className="text-base hover:underline">gonzalo.galvezc@pucp.edu.pe</a>
+            </div>
+            <div className="flex items-center space-x-3">
+              <SiInstagram className="w-5 h-5 text-white" />
+              <a href="https://www.instagram.com/gonzalo_galcor/" target="_blank" rel="noopener noreferrer" className="text-base hover:underline">instagram.com/gonzalo_galcor</a>
             </div>
           </div>
         </div>
