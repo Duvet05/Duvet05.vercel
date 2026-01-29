@@ -23,8 +23,8 @@ const bauhausPixel = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Cuadot | 3D Artist",
-  description: "3D Artist & Developer Portfolio for Cuadot",
+  title: "Duvet05 | Software Developer",
+  description: "Software Developer Portfolio - Gonzalo Galvez Cortez",
   icons: {
     icon: "/favicon.png",
   },

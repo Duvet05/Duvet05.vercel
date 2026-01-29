@@ -76,7 +76,7 @@ export default function GamesPage() {
       console.log("Inicializando js-dos con audio...")
 
       // CRÍTICO: Crear y desbloquear AudioContext ANTES de js-dos
-      const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext
+      const AudioContextClass = window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext
       const audioContext = new AudioContextClass()
 
       console.log("AudioContext state:", audioContext.state)

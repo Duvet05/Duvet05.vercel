@@ -234,7 +234,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ glitchText, currentTim
                   {/*<h1 className="text-6xl font-bold glitch-text font-bauhaus-pixel">{glitchText}</h1>*/}
                   {/* Evitar márgenes negativos en pantallas pequeñas; aplicarlos solo desde md en adelante */}
                   <h1 className="text-6xl lg:text-7xl xl:text-8xl font-bauhaus-pixel mb-0 md:mb-[-12px] lg:mb-[-12px] xl:mb-[-12px] leading-none overflow-hidden">{glitchText}</h1>
-                  <p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-gray-400 mb-3 sm:mb-6">3D.ARTIST.DEVELOPER</p>
+                  <p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-gray-400 mb-3 sm:mb-6">SOFTWARE.DEVELOPER</p>
                   <div className="flex justify-center space-x-1 sm:space-x-4 flex-wrap gap-y-1">
                     <Badge variant="outline" className="text-xs border-white text-white rounded-none whitespace-nowrap">
                       ONLINE

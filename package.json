@@ -1,5 +1,5 @@
 {
-  "name": "3d-artist",
+  "name": "duvet05-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -18,7 +18,7 @@
     "clsx": "^2.1.1",
     "js-dos": "^8.3.20",
     "lucide-react": "^0.525.0",
-    "next": "15.2.4",
+    "next": "^15.5.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
@@ -33,7 +33,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "15.2.4",
+    "eslint-config-next": "^15.5.11",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.6",
     "typescript": "^5"

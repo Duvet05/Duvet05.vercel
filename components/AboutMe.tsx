@@ -19,7 +19,7 @@ export const AboutMe: React.FC<AboutMeProps> = () => (
       <div className="border-l border-t border-r border-secondary bg-primary p-6 text-white text-lg font-vt323 flex items-center justify-center lg:flex-shrink-0 lg:border-b lg:border-r-0">
         <Image
           src="/images/dithered-image.png"
-          alt="Cuadot Profile"
+          alt="Duvet05 Profile"
           className="w-[196px] h-[196px] object-cover rounded-lg aspect-square"
           width={196}
           height={196}
@@ -32,22 +32,32 @@ export const AboutMe: React.FC<AboutMeProps> = () => (
         <div className="w-full min-w-0">
           <div className="flex flex-row items-center justify-between mb-4 gap-2">
             <h3 className="text-lg sm:text-xl font-bold font-bauhaus flex items-center min-w-0">
-              <span className="truncate">VICTOR.CUADOT.ESQUEDA</span>
+              <span className="truncate">GONZALO.GALVEZ.CORTEZ</span>
               <span className="hidden sm:flex flex-1 ml-2 text-secondary overflow-hidden" style={{ letterSpacing: '2px' }}>
                 {'/'.repeat(20)}
               </span>
             </h3>
-            <a href="/cv.pdf" download className="flex-shrink-0">
-              <Button
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-black bg-transparent rounded-none cursor-pointer text-sm lg:text-base"
-              >
-                DOWNLOAD.CV <ArrowRight className="w-4 h-4 ml-2" />
-              </Button>
-            </a>
+            <div className="flex gap-2 flex-shrink-0">
+              <a href="https://www.linkedin.com/in/galvezc" target="_blank" rel="noopener noreferrer">
+                <Button
+                  variant="outline"
+                  className="border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white bg-transparent rounded-none cursor-pointer text-sm lg:text-base"
+                >
+                  LINKEDIN
+                </Button>
+              </a>
+              <a href="/cv.pdf" download>
+                <Button
+                  variant="outline"
+                  className="border-white text-white hover:bg-white hover:text-black bg-transparent rounded-none cursor-pointer text-sm lg:text-base"
+                >
+                  DOWNLOAD.CV <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              </a>
+            </div>
           </div>
           <p className="text-sm lg:text-lg leading-relaxed">
-            I&apos;m Cuadot, a 3D artist with a strong background in digital art and technology. I studied and taught at UNIAT, where I discovered my passion for sharing knowledge and pushing creative boundaries. My journey includes freelance work and collaborations with leading companies in the industry, contributing to projects for games, film, and advertising. I specialize in advanced visualization, procedural environments, and interactive experiences, always blending technical mastery with artistic vision. I love exploring new tools and trends, and I&apos;m always open to new challenges, collaborations, and freelance opportunities in the digital and creative world.
+            I&apos;m Gonzalo, a Software Developer passionate about building robust and scalable applications. With experience in full-stack development, I specialize in creating efficient solutions using modern technologies. I enjoy tackling complex problems, learning new frameworks, and collaborating on innovative projects. Always open to new challenges and opportunities in the software development world.
           </p>
         </div>
       </div>

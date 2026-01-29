@@ -13,13 +13,13 @@ export const Footer: React.FC<FooterProps> = ({ currentTime }) => (
           <div className="w-8 h-8 border border-white flex items-center justify-center">
             <Terminal className="w-4 h-4 text-white" />
           </div>
-          <span className="text-2xl font-bauhaus-pixel mb-[-8]">CUADOT</span>
+          <span className="text-2xl font-bauhaus-pixel mb-[-8]">DUVET05</span>
         </div>
         <p className="text-gray-400">
-          Cuadot is a 3D artist and developer focused on visualization, procedural environments, and interactive experiences. Open for collaborations and freelance work.
+          Gonzalo Galvez Cortez - Software Developer focused on building scalable applications and innovative solutions. Open for collaborations and new opportunities.
         </p>
         <p className="text-gray-500 mt-2 text-xs">
-          Website developed by <a href="https://cosmodev.me" target="_blank" rel="noopener noreferrer" className="underline">cosmodev.me</a>
+          <a href="https://www.linkedin.com/in/galvezc" target="_blank" rel="noopener noreferrer" className="underline">LinkedIn</a>
         </p>
       </div>
       <div>
@@ -46,7 +46,7 @@ export const Footer: React.FC<FooterProps> = ({ currentTime }) => (
           <p>VERSION: 2.0.24</p>
           <p>BUILD: {currentTime}</p>
           <p>LICENSE: CREATIVE.COMMONS</p>
-          <p>© 2025 Cuadot</p>
+          <p>© 2025 Duvet05</p>
         </div>
       </div>
     </div>
