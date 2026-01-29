@@ -7,7 +7,7 @@ import ArtstationInfiniteCarousel from "@/components/ArtstationInfiniteCarousel"
 
 export default function CyberpunkPortfolio() {
   const [currentTime, setCurrentTime] = useState("")
-  const [glitchText, setGlitchText] = useState("CUADOT")
+  const [glitchText, setGlitchText] = useState("Duvet05")
   const [isPlaying, setIsPlaying] = useState(false)
   const [currentTrack, setCurrentTrack] = useState(0)
   const [playerState, setPlayerState] = useState("STOPPED")
@@ -63,7 +63,7 @@ export default function CyberpunkPortfolio() {
   useEffect(() => {
     const glitchInterval = setInterval(() => {
       const glitchChars = "!@#$%^&*()_+-=[]{}|;:,.<>?"
-      const originalText = "CUADOT"
+      const originalText = "Duvet05"
       let glitched = ""
 
       for (let i = 0; i < originalText.length; i++) {
@@ -76,7 +76,7 @@ export default function CyberpunkPortfolio() {
 
       setGlitchText(glitched)
 
-      setTimeout(() => setGlitchText("CUADOT"), 100)
+      setTimeout(() => setGlitchText("Duvet05"), 100)
     }, 3000)
 
     return () => clearInterval(glitchInterval)

@@ -2,6 +2,7 @@ import React from "react";
 import { HeroSection } from "@/components/HeroSection";
 import { AboutMe } from "@/components/AboutMe";
 import { Stack } from "@/components/Stack";
+import { Experience } from "@/components/Experience";
 import { Projects } from "@/components/Projects";
 import { Skills } from "@/components/Skills";
 import { Brands } from "@/components/Brands";
@@ -43,6 +44,9 @@ export const MainContent: React.FC<MainContentProps> = ({
       <div id="stack" className="flex-1 min-w-0">
         <Stack />
       </div>
+    </div>
+    <div id="experience">
+      <Experience />
     </div>
     <div id="projects">
       <Projects />

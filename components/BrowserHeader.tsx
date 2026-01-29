@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { SiArtstation, SiInstagram, SiSketchfab } from "react-icons/si";
+import { SiGithub, SiLinkedin } from "react-icons/si";
+import { Mail } from "lucide-react";
 import { Navigation } from "@/components/Navigation";
 import { usePathname } from "next/navigation";
 
@@ -22,7 +23,7 @@ interface BrowserHeaderProps {
 
 export const BrowserHeader: React.FC<BrowserHeaderProps> = (props) => {
   const pathname = usePathname();
-  const currentUrl = pathname === '/projects' ? 'HTTPS://CUADOT.COM/PROJECTS' : 'HTTPS://CUADOT.COM';
+  const currentUrl = pathname === '/projects' ? 'HTTPS://DUVET05.COM/PROJECTS' : 'HTTPS://DUVET05.COM';
   
   return (
     <>
@@ -39,7 +40,7 @@ export const BrowserHeader: React.FC<BrowserHeaderProps> = (props) => {
         </div>
         <div className="flex space-x-1 group">
           <a
-            href="https://www.artstation.com/cuadot"
+            href="https://github.com/Duvet05"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -48,11 +49,11 @@ export const BrowserHeader: React.FC<BrowserHeaderProps> = (props) => {
               size="sm"
               className="text-gray-400 hover:text-primary hover:bg-secondary rounded-none h-8 py-1 flex items-center cursor-pointer"
             >
-              <SiArtstation className="w-5 h-5" />
+              <SiGithub className="w-5 h-5" />
             </Button>
           </a>
           <a
-            href="https://sketchfab.com/cuadot"
+            href="https://www.linkedin.com/in/galvezc"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -61,11 +62,11 @@ export const BrowserHeader: React.FC<BrowserHeaderProps> = (props) => {
               size="sm"
               className="text-gray-400 hover:text-primary hover:bg-secondary rounded-none h-8 py-1 flex items-center cursor-pointer"
             >
-              <SiSketchfab className="w-5 h-5" />
+              <SiLinkedin className="w-5 h-5" />
             </Button>
           </a>
           <a
-            href="https://instagram.com/cuadot.3d"
+            href="mailto:contact@duvet05.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -74,7 +75,7 @@ export const BrowserHeader: React.FC<BrowserHeaderProps> = (props) => {
               size="sm"
               className="text-gray-400 hover:text-primary hover:bg-secondary rounded-none h-8 py-1 flex items-center cursor-pointer"
             >
-              <SiInstagram className="w-5 h-5" />
+              <Mail className="w-5 h-5" />
             </Button>
           </a>
         </div>

@@ -1,17 +1,15 @@
 import React from "react";
-import { SiBlender, SiAutodesk, SiAdobephotoshop, SiUnity, SiUnrealengine, SiWebgl, SiAdobe } from "react-icons/si";
-import { FaPaintBrush } from "react-icons/fa";
+import { SiReact, SiFlutter, SiDocker, SiAmazon, SiSpringboot, SiTypescript, SiDotnet } from "react-icons/si";
 import { IconType } from "react-icons";
 
 const techList: { tech: string; level: number; icon: IconType }[] = [
-  { tech: "Blender", level: 10, icon: SiBlender },
-  { tech: "Maya", level: 9, icon: SiAutodesk },
-  { tech: "ZBrush", level: 8, icon: FaPaintBrush },
-  { tech: "Substance", level: 9, icon: SiAdobe },
-  { tech: "Photoshop", level: 10, icon: SiAdobephotoshop },
-  { tech: "Unity", level: 6, icon: SiUnity },
-  { tech: "Unreal", level: 6, icon: SiUnrealengine },
-  { tech: "WebGL", level: 7, icon: SiWebgl },
+  { tech: "Flutter", level: 9, icon: SiFlutter },
+  { tech: "React", level: 9, icon: SiReact },
+  { tech: "Spring Boot", level: 8, icon: SiSpringboot },
+  { tech: ".NET", level: 8, icon: SiDotnet },
+  { tech: "Docker", level: 8, icon: SiDocker },
+  { tech: "AWS", level: 7, icon: SiAmazon },
+  { tech: "TypeScript", level: 9, icon: SiTypescript },
 ];
 
 export const Stack: React.FC = () => (

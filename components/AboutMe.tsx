@@ -57,7 +57,7 @@ export const AboutMe: React.FC<AboutMeProps> = () => (
             </div>
           </div>
           <p className="text-sm lg:text-lg leading-relaxed">
-            I&apos;m Gonzalo, a Software Developer passionate about building robust and scalable applications. With experience in full-stack development, I specialize in creating efficient solutions using modern technologies. I enjoy tackling complex problems, learning new frameworks, and collaborating on innovative projects. Always open to new challenges and opportunities in the software development world.
+            I&apos;m Gonzalo, a Software Developer passionate about building innovative solutions. Winner of the CAP Innovation award, I founded Nebu and participated in Santander X Explorer 2026. My expertise spans blockchain, HL7/FHIR interoperability, and full-stack development. I&apos;ve worked on projects like Flow-telligence, Santa Clotilde, and participated in Conectathon 2026. Always exploring cutting-edge technologies to solve real-world problems.
           </p>
         </div>
       </div>
