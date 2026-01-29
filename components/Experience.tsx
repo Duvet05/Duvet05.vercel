@@ -1,6 +1,6 @@
 import React from "react";
 import { WindowHeader } from "./layout/WindowHeader";
-import { Award, Trophy, Rocket, Code, Heart } from "lucide-react";
+import { Award, Trophy, Rocket, Code, Heart, GraduationCap } from "lucide-react";
 
 export const Experience: React.FC = () => (
   <div id="experience" className="flex-1 min-w-0 flex flex-col mb-12">
@@ -25,7 +25,7 @@ export const Experience: React.FC = () => (
             <span className="text-secondary font-bold">Co-Founder PeruHCE</span>
           </div>
           <p className="text-sm mt-2 text-gray-300">
-            Startup focused on innovative technology solutions.
+            Startup focused on innovative technology solutions for healthcare.
           </p>
         </div>
 
@@ -60,6 +60,17 @@ export const Experience: React.FC = () => (
               → flow-telligence.com
             </a>
           </div>
+        </div>
+
+        {/* PUCP Graduate */}
+        <div className="border border-secondary p-4 bg-black/30 hover:bg-black/50 transition-colors">
+          <div className="flex items-center gap-2 mb-3">
+            <GraduationCap className="text-primary w-6 h-6" />
+            <h3 className="text-xl font-bauhaus">PUCP GRADUATE</h3>
+          </div>
+          <p className="text-base leading-relaxed">
+            Graduate from Pontificia Universidad Católica del Perú (PUCP), one of Peru&apos;s leading universities, with a degree in Computer Science.
+          </p>
         </div>
 
         {/* Santa Clotilde */}
