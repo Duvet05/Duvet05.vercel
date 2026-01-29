@@ -49,7 +49,7 @@ export default function CyberpunkPortfolio() {
       setCurrentTime(
         now.toLocaleTimeString("en-US", {
           hour12: false,
-          timeZone: "America/Mexico_City",
+          timeZone: "America/Lima",
         }),
       )
     }

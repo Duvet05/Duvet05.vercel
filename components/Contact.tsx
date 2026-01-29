@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { SiArtstation, SiSketchfab, SiInstagram, SiLinkedin, SiGmail, SiDiscord } from "react-icons/si";
+import { SiGithub, SiLinkedin, SiGmail } from "react-icons/si";
 import { WindowHeader } from "./layout/WindowHeader";
 
 interface ContactProps {
@@ -45,28 +45,16 @@ export const Contact: React.FC<ContactProps> = ({ currentTime }) => (
           </h3>
           <div className="space-y-3">
             <div className="flex items-center space-x-3">
-              <SiArtstation className="w-5 h-5 text-white" />
-              <a href="https://www.artstation.com/cuadot" target="_blank" rel="noopener noreferrer" className="text-base hover:underline">artstation.com/cuadot</a>
-            </div>
-            <div className="flex items-center space-x-3">
-              <SiSketchfab className="w-5 h-5 text-white" />
-              <a href="https://sketchfab.com/cuadot" target="_blank" rel="noopener noreferrer" className="text-base hover:underline">sketchfab.com/cuadot</a>
-            </div>
-            <div className="flex items-center space-x-3">
-              <SiInstagram className="w-5 h-5 text-white" />
-              <a href="https://www.instagram.com/cuadot.3d" target="_blank" rel="noopener noreferrer" className="text-base hover:underline">@cuadot.3d</a>
+              <SiGithub className="w-5 h-5 text-white" />
+              <a href="https://github.com/Duvet05" target="_blank" rel="noopener noreferrer" className="text-base hover:underline">github.com/Duvet05</a>
             </div>
             <div className="flex items-center space-x-3">
               <SiLinkedin className="w-5 h-5 text-white" />
-              <a href="https://www.linkedin.com/in/victor-cuadot-esqueda-5a710b15a/?originalSubdomain=mx" target="_blank" rel="noopener noreferrer" className="text-base hover:underline">linkedin.com/in/victor-cuadot-esqueda</a>
+              <a href="https://www.linkedin.com/in/galvezc" target="_blank" rel="noopener noreferrer" className="text-base hover:underline">linkedin.com/in/galvezc</a>
             </div>
             <div className="flex items-center space-x-3">
               <SiGmail className="w-5 h-5 text-white" />
-              <a href="mailto:cuadot.art@gmail.com" className="text-base hover:underline">cuadot.art@gmail.com</a>
-            </div>
-            <div className="flex items-center space-x-3">
-              <SiDiscord className="w-5 h-5 text-white" />
-              <span className="text-base">cuadot</span>
+              <a href="mailto:gonzalo.galvezc@pucp.edu.pe" className="text-base hover:underline">gonzalo.galvezc@pucp.edu.pe</a>
             </div>
           </div>
         </div>
@@ -76,8 +64,8 @@ export const Contact: React.FC<ContactProps> = ({ currentTime }) => (
             <span className="flex-1 ml-2 text-secondary" style={{ letterSpacing: '2px' }}>{'/'.repeat(39)}</span>
           </h3>
           <div className="text-sm text-gray-400">
-            <p>■ SECTOR: MÉXICO</p>
-            <p>■ TIMEZONE: GMT-6 {currentTime}</p>
+            <p>■ SECTOR: PERÚ</p>
+            <p>■ TIMEZONE: GMT-5 {currentTime}</p>
             <p>■ STATUS: AVAILABLE.FOR.HIRE</p>
           </div>
         </div>

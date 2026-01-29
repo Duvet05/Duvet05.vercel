@@ -93,18 +93,15 @@ export const Navigation: React.FC<NavigationProps> = ({
           <button onClick={() => handleNavigation('home')} className="text-gray-400 hover:text-white hover:underline cursor-pointer bg-transparent border-none transition-colors">HOME</button>
           <button onClick={() => handleNavigation('about')} className="text-gray-400 hover:text-white hover:underline cursor-pointer bg-transparent border-none transition-colors">ABOUT.ME</button>
           <button onClick={() => handleNavigation('stack')} className="text-gray-400 hover:text-white hover:underline cursor-pointer bg-transparent border-none transition-colors">STACK</button>
-          <button onClick={handleProjectsNavigation} className="text-gray-400 hover:text-white hover:underline cursor-pointer bg-transparent border-none animate-pulse-green transition-colors">PROJECTS</button>
-          <button onClick={() => handleNavigation('skills')} className="text-gray-400 hover:text-white hover:underline cursor-pointer bg-transparent border-none transition-colors">SKILLS</button>
-          <button onClick={() => handleNavigation('brands')} className="text-gray-400 hover:text-white hover:underline cursor-pointer bg-transparent border-none transition-colors">BRANDS</button>
-          <button onClick={() => window.location.href = '/games'} className="text-red-400 hover:text-red-300 hover:underline cursor-pointer bg-transparent border-none animate-pulse-red transition-colors">GAMES</button>
+          <button onClick={() => handleNavigation('experience')} className="text-gray-400 hover:text-white hover:underline cursor-pointer bg-transparent border-none animate-pulse-green transition-colors">EXPERIENCE</button>
           <button onClick={() => handleNavigation('contact')} className="text-gray-400 hover:text-white hover:underline cursor-pointer bg-transparent border-none transition-colors">CONTACT</button>
         </div>
         
         {/* Navegación simplificada en mobile */}
         <div className="flex md:hidden space-x-4 text-base">
           <button onClick={() => handleNavigation('home')} className="text-gray-400 hover:text-white hover:underline cursor-pointer bg-transparent border-none transition-colors">HOME</button>
-          <button onClick={handleProjectsNavigation} className="text-gray-400 hover:text-white hover:underline cursor-pointer bg-transparent border-none animate-pulse-green transition-colors">PROJECTS</button>
-          <button onClick={() => window.location.href = '/games'} className="text-red-400 hover:text-red-300 hover:underline cursor-pointer bg-transparent border-none animate-pulse-red transition-colors">GAMES</button>
+          <button onClick={() => handleNavigation('experience')} className="text-gray-400 hover:text-white hover:underline cursor-pointer bg-transparent border-none animate-pulse-green transition-colors">EXPERIENCE</button>
+          <button onClick={() => handleNavigation('contact')} className="text-gray-400 hover:text-white hover:underline cursor-pointer bg-transparent border-none transition-colors">CONTACT</button>
         </div>
         
         {/* Mini reproductor de música funcional estilo terminal/pixel art - Solo en desktop */}

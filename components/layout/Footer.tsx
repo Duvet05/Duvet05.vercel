@@ -25,28 +25,28 @@ export const Footer: React.FC<FooterProps> = ({ currentTime }) => (
       <div>
         <h4 className="font-bold mb-4 font-bauhaus text-base">SERVICES</h4>
         <div className="space-y-2 text-gray-400">
-          <p>3D Modeling & Animation</p>
-          <p>WebGL Development</p>
-          <p>Interactive Experiences</p>
-          <p>Virtual Environments</p>
+          <p>Full-Stack Development</p>
+          <p>Mobile App Development</p>
+          <p>Cloud Architecture</p>
+          <p>Healthcare IT Solutions</p>
         </div>
       </div>
       <div>
         <h4 className="font-bold mb-4 font-bauhaus text-base">TECHNOLOGIES</h4>
         <div className="space-y-2 text-gray-400">
-          <p>Blender • Maya • ZBrush</p>
-          <p>Three.js • WebGL • React</p>
-          <p>Unreal Engine • Unity</p>
-          <p>Substance Suite</p>
+          <p>Flutter • React • TypeScript</p>
+          <p>Spring Boot • .NET</p>
+          <p>Docker • AWS</p>
+          <p>HL7 FHIR • Blockchain</p>
         </div>
       </div>
       <div>
         <h4 className="font-bold mb-4 font-bauhaus text-base">SYSTEM.INFO</h4>
         <div className="space-y-2 text-gray-400">
-          <p>VERSION: 2.0.24</p>
+          <p>VERSION: 2.0.26</p>
           <p>BUILD: {currentTime}</p>
-          <p>LICENSE: CREATIVE.COMMONS</p>
-          <p>© 2025 Duvet05</p>
+          <p>LICENSE: MIT</p>
+          <p>© 2026 Duvet05</p>
         </div>
       </div>
     </div>
