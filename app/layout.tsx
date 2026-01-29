@@ -24,9 +24,31 @@ const bauhausPixel = localFont({
 
 export const metadata: Metadata = {
   title: "Duvet05 | Software Developer",
-  description: "Software Developer Portfolio - Gonzalo Galvez Cortez",
+  description: "Building the future one commit at a time. From blockchain wizardry to healthcare interoperability. Award-winning developer and certified problem-solver extraordinaire.",
   icons: {
     icon: "/favicon.png",
+  },
+  openGraph: {
+    title: "Duvet05 | Software Developer",
+    description: "Building the future one commit at a time.",
+    url: "https://duvet05-dev.vercel.app",
+    siteName: "Duvet05 Portfolio",
+    images: [
+      {
+        url: "/android-chrome-512x512.png",
+        width: 512,
+        height: 512,
+        alt: "Duvet05 - Gonzalo Galvez Portfolio",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Duvet05 | Software Developer",
+    description: "Building the future one commit at a time. From blockchain wizardry to healthcare interoperability. Award-winning developer and certified problem-solver extraordinaire.",
+    images: ["/android-chrome-512x512.png"],
   },
 };
 
