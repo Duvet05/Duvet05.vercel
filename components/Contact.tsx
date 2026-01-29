@@ -71,12 +71,13 @@ export const Contact: React.FC<ContactProps> = ({ currentTime }) => (
           <div className="mb-4">
             <Image
               src="/images/lima-dithered.png"
-              alt="Lima, Peru"
+              alt="Lima, Peru - Plaza Bolognesi"
               width={300}
               height={200}
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover border border-secondary"
               style={{ imageRendering: 'pixelated' }}
             />
+            <p className="text-xs text-gray-500 mt-1 font-mono">1921-PLAZA-BOLOGNESI</p>
           </div>
           <div className="text-sm text-gray-400">
             <p>■ SECTOR: PERÚ</p>
