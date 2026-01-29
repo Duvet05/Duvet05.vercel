@@ -15,8 +15,8 @@ export const Contact: React.FC<ContactProps> = ({ currentTime }) => (
     <h2 className="text-4xl font-bauhaus-pixel leading-none mb-4">CONTACT</h2>
     <WindowHeader title="CONTACT.EXE" />
     <div className="border-secondary border grid grid-cols-1 lg:grid-cols-2">
-      <div>
-        <div className="bg-primary border-secondary p-6 lg:border-r">
+      <div className="lg:border-r border-secondary">
+        <div className="bg-primary p-6">
           <h3 className="text-xl font-bold mb-4 font-bauhaus whitespace-nowrap overflow-hidden w-full flex items-center">
             <span>SEND.MESSAGE</span>
             <span className="flex-1 ml-2 text-secondary" style={{ letterSpacing: '2px' }}>{'/'.repeat(40)}</span>
@@ -44,22 +44,24 @@ export const Contact: React.FC<ContactProps> = ({ currentTime }) => (
             <span>LOCATION.DATA</span>
             <span className="flex-1 ml-2 text-secondary" style={{ letterSpacing: '2px' }}>{'/'.repeat(39)}</span>
           </h3>
-          <div className="flex gap-4 items-start">
-            <div className="flex-1 text-sm text-gray-400">
+          <div className="flex flex-col gap-3">
+            <div className="text-sm text-gray-400 space-y-1">
               <p>■ SECTOR: PERÚ</p>
               <p>■ TIMEZONE: GMT-5 {currentTime}</p>
               <p>■ STATUS: AVAILABLE.FOR.HIRE</p>
             </div>
-            <div className="flex-shrink-0">
-              <Image
-                src="/images/lima-dithered.png"
-                alt="Lima, Peru - Plaza Bolognesi"
-                width={120}
-                height={80}
-                className="border border-secondary"
-                style={{ imageRendering: 'pixelated' }}
-              />
-              <p className="text-xs text-gray-500 mt-1 font-mono text-center">1921-PLAZA-BOLOGNESI</p>
+            <div className="flex justify-center">
+              <div>
+                <Image
+                  src="/images/lima-dithered.png"
+                  alt="Lima, Peru - Plaza Bolognesi"
+                  width={220}
+                  height={147}
+                  className="border border-secondary"
+                  style={{ imageRendering: 'pixelated' }}
+                />
+                <p className="text-xs text-gray-500 mt-1 font-mono text-center">1921-PLAZA-BOLOGNESI</p>
+              </div>
             </div>
           </div>
         </div>
